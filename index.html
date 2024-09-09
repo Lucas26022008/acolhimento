@@ -11,14 +11,14 @@
 </head>
 <body>
 
-    <section class="boasvindas">
-        <h1> Que bom você estar aqui <span id="nome-usuário">...</span></h1>
-    </section>
-
     <header class="header">
         <h1>Seja Bem-vindo!</h1>
         <p>Estamos felizes em recebê-lo para mais um dia de aprendizado e diversão.</p>
     </header>
+
+    <section class="boasvindas">
+        <h1>Que bom você estar aqui, <span id="nome-usuário">...</span></h1>
+    </section>
 
     <section class="secao-padding mensagem-boas-vindas">
         <h2>Bom Dia!</h2>
@@ -48,5 +48,21 @@
     <footer class="footer">
         <p>&copy; 2024 Nossa Escola. Estamos sempre aqui para ajudar você!</p>
     </footer>
+
+    <script>
+        let nomeUsuário = "";
+        let elemento = document.querySelector("#nome-usuário");
+
+        while (nomeUsuário === "") {
+            nomeUsuário = prompt("Digite seu nome por favor!");
+
+            if (nomeUsuário === null) {
+                nomeUsuário = "visitante"; // Caso o usuário cancele, o nome será "visitante"
+                break;
+            }
+        }
+
+        elemento.textContent = nomeUsuário;
+    </script>
 </body>
 </html>

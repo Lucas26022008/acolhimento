@@ -1,12 +1,13 @@
 let nomeUsuário = "";
 let elemento = document.querySelector("#nome-usuário");
 
-while(nomeUsuário == ""){
+while (nomeUsuário === "") {
     nomeUsuário = prompt("Digite seu nome por favor!");
+
+    if (nomeUsuário === null) {
+        nomeUsuário = "visitante"; // Caso o usuário cancele, o nome será "visitante"
+        break;
+    }
 }
 
-if(nomeUsuário == null){
-    elemento.textContent = 'Olá, ';
-}else{
-    elemento.textContent = nomeUsuário;
-}
+elemento.textContent = nomeUsuário;

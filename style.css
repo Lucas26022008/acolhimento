@@ -29,6 +29,16 @@ body {
     margin-top: 1rem;
 }
 
+.boasvindas {
+    text-align: center;
+    padding: 2rem;
+}
+
+.boasvindas h1 {
+    font-size: 2.5rem;
+    color: #4a90e2;
+}
+
 .secao-padding {
     padding: 2rem;
     margin: 2rem 1rem;
@@ -91,7 +101,7 @@ ul li {
     margin: 0;
 }
 
-.mensagem-boas-vindas p{
+.mensagem-boas-vindas p {
     text-align: center;
     margin-top: 1em;
 }
