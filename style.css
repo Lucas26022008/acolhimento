@@ -4,9 +4,22 @@
     box-sizing: border-box;
 }
 
-* p,h2,h1,li{
-    font-size: 4em;
+p {
+    font-size: 1.2em;
 }
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+li {
+    font-size: 1.1em;
+}
+
 
 body {
     font-family: 'Poppins', sans-serif;
