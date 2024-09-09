@@ -4,23 +4,6 @@
     box-sizing: border-box;
 }
 
-p {
-    font-size: 2em;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 2em;
-}
-
-li {
-    font-size: 2em;
-}
-
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
@@ -110,4 +93,5 @@ ul li {
 
 .mensagem-boas-vindas p{
     text-align: center;
+    margin-top: 1em;
 }
