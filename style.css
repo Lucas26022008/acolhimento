@@ -1,11 +1,9 @@
-/* Reseta margens e padding e define box-sizing para todos os elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo geral do body */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
@@ -13,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Estilo do cabeçalho */
 .header {
     background-color: #4a90e2;
     color: white;
@@ -23,30 +20,28 @@ body {
 }
 
 .header h1 {
-    font-size: 3.5rem; /* Aumenta o tamanho da fonte */
+    font-size: 3.5rem;
     font-weight: bold;
-    padding: 2rem; /* Adiciona mais espaço ao redor do texto */
+    padding: 2rem;
 }
 
 .header p {
-    font-size: 1.5rem; /* Aumenta o tamanho da fonte */
-    margin-top: 1.5rem; /* Aumenta o espaço acima do texto */
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
 }
 
-/* Estilo da seção de boas-vindas */
 .boasvindas {
     text-align: center;
     padding: 2rem;
 }
 
 .boasvindas h1 {
-    font-size: 3rem; /* Aumenta o tamanho da fonte */
+    font-size: 3rem;
     color: #ffffff;
 }
 
-/* Estilo das seções com padding */
 .secao-padding {
-    padding: 3rem; /* Aumenta o espaço interno das seções */
+    padding: 3rem;
     margin: 2rem 1rem;
     background-color: white;
     border-radius: 12px;
@@ -58,14 +53,12 @@ body {
     transform: translateY(-10px);
 }
 
-/* Estilo dos títulos das seções */
 .secao-padding h2 {
-    font-size: 2.5rem; /* Aumenta o tamanho da fonte */
+    font-size: 2.5rem;
     color: #4a90e2;
     text-align: center;
 }
 
-/* Estilo das listas */
 ul {
     list-style: none;
     padding-left: 0;
@@ -73,11 +66,10 @@ ul {
 }
 
 ul li {
-    padding: 1rem 0; /* Aumenta o espaço acima e abaixo dos itens */
-    font-size: 1.2rem; /* Aumenta o tamanho da fonte */
+    padding: 1rem 0;
+    font-size: 1.2rem;
 }
 
-/* Estilo dos botões de apoio */
 .btn-apoio {
     display: block;
     margin: 1.5rem auto;
@@ -96,7 +88,6 @@ ul li {
     background-color: #3cbf9b;
 }
 
-/* Estilo do rodapé */
 .footer {
     text-align: center;
     padding: 1.5rem;
@@ -109,7 +100,6 @@ ul li {
     margin: 0;
 }
 
-/* Estilo da seção de informações */
 .mensagem-boas-vindas p {
     text-align: center;
     margin-top: 1em;
@@ -125,18 +115,18 @@ ul li {
     flex: 1;
     margin-top: 1.5em;
     background-color: #f9f9f9;
-    padding: 1.5rem; /* Aumenta o espaço interno dos itens */
+    padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .info-item h3 {
     color: #4a90e2;
-    font-size: 1.75rem; /* Aumenta o tamanho da fonte */
+    font-size: 1.75rem;
     margin-bottom: 0.5rem;
 }
 
 .info-item p {
-    font-size: 1.2rem; /* Aumenta o tamanho da fonte */
+    font-size: 1.2rem;
     color: #333;
 }
