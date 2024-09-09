@@ -131,11 +131,22 @@ ul li {
     color: #333;
 }
 
+.equipe-apoio p {
+    font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Torna o texto em negrito, se desejar */
+}
+
+
 /* Media Queries para tornar o layout responsivo */
 @media (max-width: 768px) {
     .header h1 {
         font-size: 2.5rem;
         padding: 1rem;
+    }
+
+    .equipe-apoio p {
+        font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+        font-weight: bold; /* Torna o texto em negrito, se desejar */
     }
 
     .header p {
@@ -191,6 +202,11 @@ ul li {
     .boasvindas h1 {
         font-size: 1.5rem;
     }
+
+    .equipe-apoio p {
+        font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+        font-weight: bold; /* Torna o texto em negrito, se desejar */
+    }    
 
     .secao-padding {
         padding: 1.5rem;
